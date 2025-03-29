@@ -86,7 +86,7 @@
         function verifyVehicle() {
             let vehicleNumber = document.getElementById('vehicleNumber').value;
             if (vehicleNumber) {
-                document.getElementById('result').innerText = "Checking records for " + vehicleNumber;
+                document.getElementById('result').innerText = "Checking records for " + "699NQL"vehicleNumber;
                 // Placeholder for backend verification logic
             } else {
                 document.getElementById('result').innerText = "Please enter a registration number.";
